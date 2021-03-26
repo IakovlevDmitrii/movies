@@ -1,16 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1953c4c0-1fe7-4242-8d94-4ce6c82dabcd" name="Default Changelist" comment="movies">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alert/alert.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alert/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/alert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/app.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/genres/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/genres/genres.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/genres/insex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/movie-card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/movieCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/poster-not-found-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/rate/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/rate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/rate/rate.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/rating/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/rating/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/rating/rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-сard/rating/rating.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movies/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movies/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movies/movies.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movies/movies.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rated/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rated/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rated/ratedList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rated/view-rated-list/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rated/view-rated-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rated/view-rated-list/view-rated-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-list/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-list/search-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-list/view-search-list/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-list/view-search-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-list/view-search-list/view-search-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/genres-context/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/genres-context/genres-context.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/genres-context/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/guest-session-id-context/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/guest-session-id-context/guest-session-id-context.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/guest-session-id-context/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/with-guest-session-id/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/with-guest-session-id/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/with-guest-session-id/with-guest-session-id.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api-service/apiService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api-service/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api-service/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/transformFunctions/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/transformFunctions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/transformFunctions/transformFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.prettierrc.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/search-list/view-search-list/view-search-list.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="112" selection-start-line="112" selection-end-line="118" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/error-boundary/error-boundary.jsx" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="244" />
     <option name="y" value="65" />
     <option name="width" value="1318" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Dima\react-apps\movies\node_modules\prettier" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1953c4c0-1fe7-4242-8d94-4ce6c82dabcd" name="Default Changelist" comment="" />
+      <created>1616746206603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616746206603</updated>
+      <workItem from="1616746208116" duration="1334000" />
+      <workItem from="1616747766672" duration="255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1589000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986738" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.15947242" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47242206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21744324" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="movies" />
+    <option name="LAST_COMMIT_MESSAGE" value="movies" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-list/view-search-list/view-search-list.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="112" selection-start-line="112" selection-end-line="118" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/error-boundary/error-boundary.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.prettierrc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>

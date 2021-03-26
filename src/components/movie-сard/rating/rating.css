@@ -1,0 +1,7 @@
+.movie-card__rate {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8px;
+    font-size: 1rem;
+    min-width: 280px;
+}
