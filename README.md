@@ -21,6 +21,10 @@ https://date-fns.org/prop-types
 lodash: 
 https://lodash.com/
 
+Sass
+
+CSS Modules
+
 babel
 
 eslint
@@ -29,6 +33,4 @@ lint-staged
 
 prettier
 
-
 husky
-
